@@ -1245,6 +1245,9 @@ body {
 }
 .article-meta {
   position: absolute;
+  width: 100px;
+  height: 100px;
+  background-image: url("http://i1.bvimg.com/602928/5cbda4e111afbc21.png");
 }
 .article-meta:before,
 .article-meta:after {

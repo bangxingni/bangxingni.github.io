@@ -720,6 +720,30 @@ body:after {
     transform: translate3d(0, 0, 0);
   }
 }
+.diz {
+  font-size: 24px;
+  color: #f63;
+  width: 100%;
+  line-height: 33px;
+  text-indent: 2em;
+}
+.dia {
+  position: absolute;
+}
+.diz:hover {
+  color: #1abde6;
+  opacity: 0.2;
+}
+.did {
+  font-size: 20px;
+  font-family: '微软雅黑';
+  background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#f00), to(#000));
+  background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#f00), to(#000));
+  background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#f00), to(#000));
+  background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#f00), to(#000));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 html,
 body,
 div,

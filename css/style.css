@@ -744,6 +744,15 @@ body:after {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.flx {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  left: 485px;
+}
+.xxz {
+  positon: absolute;
+}
 html,
 body,
 div,

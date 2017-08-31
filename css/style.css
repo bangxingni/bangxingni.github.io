@@ -744,14 +744,16 @@ body:after {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.flx {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  left: 485px;
+.mdzz {
+  width: 502px;
+  height: 646px;
 }
-.xxz {
-  positon: absolute;
+.flx {
+  position: absolute;
+  width: 502px;
+  height: 646px;
+  right: 0;
+  bottom: 15px;
 }
 html,
 body,

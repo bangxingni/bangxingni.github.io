@@ -3,15 +3,20 @@
 <head>
   <meta charset="utf-8">
   
-  <title>归档: 2017/3 | 幽幽小风</title>
+  <title>vue改端口号 | 幽幽小风</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="幽幽小风">
-<meta property="og:url" content="http://yoursite.com/archives/2017/03/index.html">
+  <meta name="description" content="一个调试就是一天">
+<meta name="keywords" content="vue">
+<meta property="og:type" content="article">
+<meta property="og:title" content="vue改端口号">
+<meta property="og:url" content="http://yoursite.com/2017/09/08/vue改端口号/index.html">
 <meta property="og:site_name" content="幽幽小风">
+<meta property="og:description" content="一个调试就是一天">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2017-09-08T04:49:33.234Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="幽幽小风">
+<meta name="twitter:title" content="vue改端口号">
+<meta name="twitter:description" content="一个调试就是一天">
   
   
   
@@ -81,42 +86,71 @@ ga('send', 'pageview');
   </div>
 </div>
 
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap animated rubberBand">
-        <div class="archive-year-wrap">
-          <a href="/archives/2017" class="archive-year">2017</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2017/03/05/重拾Java之模拟浏览器调用服务请求数据（HTTPclient）/" class="archive-article-date">
-  <time class="post-time" datetime="2017-03-05T08:11:30.000Z" itemprop="datePublished">
-    <span class="post-month">3月</span><br/>
-    <span class="post-day">05</span>
+        <section id="main"><article id="post-vue改端口号" class="wow slideInRight article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/09/08/vue改端口号/" class="article-date">
+  <time class="post-time" datetime="2017-09-08T03:24:35.000Z" itemprop="datePublished">
+    <span class="post-month">9月</span><br/>
+    <span class="post-day">08</span>
   </time>
 </a>
-      
+   
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/03/05/重拾Java之模拟浏览器调用服务请求数据（HTTPclient）/">重拾Java之模拟浏览器调用服务请求数据（HTTPclient）</a>
+    <h1 class="article-title" itemprop="name">
+      vue改端口号
     </h1>
   
 
-    </header>
+        <div>
+          
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/vue从入门到入土/">vue从入门到入土</a>
   </div>
+
+          
+              
+
+          
+        </div>
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>找到build目录，在dev-server.js中有着链接的地址</p>
+<p>var uri = ‘<a href="http://localhost" target="_blank" rel="external">http://localhost</a>:’ + port</p>
+<p>这个 port就是端口号，根据前面的声明<br>var config = require(‘../config’)<br>var port = process.env.PORT || config.dev.port<br>这个port 跑来跑去其实在config/index.js中<br>改一下数字就行了。<br>另外：<br>element ui有些 样式内部定义的就是style的，自己改记得!important 想高效的实现整了一上午，好像只有这么改了。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/09/08/vue改端口号/" data-id="cj7beqfvd0008ncroehqsvnoo" class="article-share-link">分享</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vue/">vue</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2017/08/15/期待明年能在中国上映/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">下一篇</strong>
+      <div class="article-nav-title">期待明年能在中国上映</div>
+    </a>
+  
+</nav>
+
+  
 </article>
-  
-  
-    </div></section>
-  
+
 
 
 </section>

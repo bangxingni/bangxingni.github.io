@@ -755,6 +755,31 @@ body:after {
   right: 0;
   bottom: 15px;
 }
+.mdzz_my {
+  height: 130px;
+  width: 180px;
+  line-height: 4px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  text-align: center;
+}
+.content_my {
+  background: #ff6347;
+  width: 160px;
+  overflow: hidden;
+  color: #fff;
+}
+#middle {
+  Display: table-cell;
+  Vertical-align: middle;
+  background: #ff6347;
+}
+#outer {
+  Height: 200px;
+  Display: table;
+  Overflow: hidden;
+  Background: #fff;
+}
 html,
 body,
 div,

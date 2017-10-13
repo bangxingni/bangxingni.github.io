@@ -780,6 +780,49 @@ body:after {
   Overflow: hidden;
   Background: #fff;
 }
+#em {
+  display: block;
+  margin: 0 auto;
+  width: 0px;
+  border-bottom: 11px #000 solid;
+  border-left: 15px transparent solid;
+  border-right: 15px transparent solid;
+  cursor: pointer;
+}
+#div2 {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 200px;
+  width: 200px;
+  background: #f00;
+  margin: 10px;
+  border: 1px solid #000;
+  padding: 20px;
+}
+#div1 {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 200px;
+  width: 200px;
+  background: #f00;
+  margin: 10px;
+  border: 1px solid #000;
+  padding: 20px;
+}
+.span {
+  font-size: 13px;
+  line-height: 25px;
+  color: #000;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 75px;
+  white-space: nowrap;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+}
 html,
 body,
 div,

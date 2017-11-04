@@ -780,7 +780,7 @@ body:after {
   Overflow: hidden;
   Background: #fff;
 }
-#em {
+.eem {
   display: block;
   margin: 0 auto;
   width: 0px;
@@ -789,7 +789,11 @@ body:after {
   border-right: 15px transparent solid;
   cursor: pointer;
 }
-#div2 {
+.wwww {
+  width: 500px;
+  height: 250px;
+}
+.wwf {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -800,7 +804,7 @@ body:after {
   border: 1px solid #000;
   padding: 20px;
 }
-#div1 {
+.wwe {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -822,6 +826,11 @@ body:after {
   display: inline-block;
   outline: none;
   cursor: pointer;
+}
+canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 html,
 body,

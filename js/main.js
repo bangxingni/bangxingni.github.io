@@ -25,8 +25,7 @@
  init();
  animate();
  function init() {
-    alert(windowWidth);
-    alert(typeof windowWidth);
+
     container = document.createElement( 'div' );
     battery.appendChild( container );
 

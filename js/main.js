@@ -4,6 +4,7 @@
 
  var audio = document.querySelector('#miku-music');
  var battery = document.querySelector('#battery');
+
  var play = true;
  var mute = false;
  var music = false;
@@ -36,8 +37,8 @@
 
     scene = new THREE.Scene();
 
-    camera.lookAt(scene.position);
-
+   // camera.lookAt(scene.position);
+    var controls = new THREE.OrbitControls(camera);
 
     var ambient = new THREE.AmbientLight( 0x444444 );
     scene.add( ambient );
@@ -50,7 +51,7 @@
     var onProgress = function ( xhr ) {
         if ( xhr.lengthComputable ) {
             var percentComplete = xhr.loaded / xhr.total * 100;
-            console.log( Math.round(percentComplete, 2) + '% downloaded' );
+        //    console.log( Math.round(percentComplete, 2) + '% downloaded' );
         }
     };
 
@@ -58,8 +59,8 @@
     };
     helper = new THREE.MMDHelper();
     var loader = new THREE.MMDLoader();
-    loader.load( 'blackmiku/blackmiku.pmx', ['jljt.vmd'], function ( object ) {audio.play();
-        audio.loop = true;
+    loader.load( 'blackmiku/blackmiku.pmx', ['jljt.vmd'], function ( object ) {
+   
         mesh = object;
         mesh.position.y = -10;
         scene.add( mesh );
@@ -69,6 +70,7 @@
         }
         helper.add( mesh );
         helper.setAnimation( mesh );
+            audio.play();
     }, onProgress, onError );
 
     renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });

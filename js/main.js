@@ -1,5 +1,5 @@
 /**
- * Created by nxb 魔改
+ *  魔改
  */
 
  var audio = document.querySelector('#miku-music');
@@ -68,6 +68,7 @@ loader.load( 'blackmiku/blackmiku.pmx', ['hifiraver.vmd'], function ( object ) {
 	helper.add( mesh );
 	helper.setAnimation( mesh );
 	audio.play();
+	audio.loop=true;
 }, onProgress, onError );
 
 renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });

@@ -56,7 +56,7 @@ var onError = function ( xhr ) {
 };
 helper = new THREE.MMDHelper();
 var loader = new THREE.MMDLoader();
-loader.load( 'blackmiku/blackmiku.pmx', ['hifiraver.vmd'], function ( object ) {
+loader.load( '33/33.pmx', ['hifiraver.vmd'], function ( object ) {
 	
 	mesh = object;
 	mesh.position.y = -10;
